@@ -23,7 +23,7 @@
 
 # check_big()
 
-# Check if a number is positive, negative, or zero.
+# # Check if a number is positive, negative, or zero.
 # def check_value(value):
 #     if value > 0:
 #         print("positive")
@@ -34,7 +34,7 @@
 
 # check_value(-3)
 
-# Check if a year is a leap year.
+# # Check if a year is a leap year.
 # def check_leap(value):
 #     if value % 4 == 0:
 #         if value % 100 == 0:
@@ -50,7 +50,7 @@
 # check_leap(2008)
 
 
-# Simple calculator (add, subtract, multiply, divide using conditions).
+# # Simple calculator (add, subtract, multiply, divide using conditions).
 # def list_of_cal():
 #     print("welcome to calculator")
 #     print("1. for sum")
