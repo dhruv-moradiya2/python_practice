@@ -1,11 +1,11 @@
 # # Grade calculator (A/B/C based on marks).
 # function check_grade() {
 #     value=75
-#     if [[ $value -gt 90 ]]; then
+#     if [[ $value -ge 90 ]]; then
 #         echo "A"
-#     elif [[ $value -gt 80 && $value -lt 90 ]]; then
+#     elif [[ $value -ge 80 && $value -lt 90 ]]; then
 #         echo "B"
-#     elif [[ $value -gt 70 && $value -lt 80 ]]; then
+#     elif [[ $value -ge 70 && $value -lt 80 ]]; then
 #         echo "C"
 #     else
 #         echo "D"
@@ -14,11 +14,35 @@
 
 # check_grade
 
-# Check if a character is a vowel or consonant.
+# # Check if a character is a vowel or consonant.
+# function check_vowel(){
+#     value=b
+#     if [[ ${value} == [AEIOUaeiou] ]]; then
+#         echo "charachter is vowel"
+#     else
+#         echo "charachter is constance"
+#     fi
+# }
 
+# check_vowel
 
-# Login system (username and password match).
+# # Login system (username and password match).
+# function check_user(){
+#     value=dhruv
+#     user=("dhruv" "raj")
 
+#     for i in ${!user[@]};
+#     do 
+#         # echo $i
+#         if [[ ${value} == ${user[$i]} ]]; then
+#             echo "found ${user[$i]}"
+#         else
+#             echo "not found ${user[$i]}"
+#         fi
+#     done 
+# }
+
+# check_user
 
 # # Find if a number is divisible by 3 and 5.
 # function check_divide(){
